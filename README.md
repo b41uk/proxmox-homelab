@@ -1,12 +1,14 @@
 # Proxmox HomeLab Infrastructure
 
+🔗 Part of my [personal portfolio](https://b41uk.github.io/portfol1o/)
+
 Personal virtualization lab designed to practice systems administration, Linux infrastructure, Docker services, cybersecurity and AI/RAG experimentation.
 
 This project documents the planning, deployment and evolution of a HomeLab environment based on Proxmox VE.
 
 ## Current Status
 
-> Project planned. Deployment will start soon.
+> Documentation phase complete. Next step: hardware inventory — see [docs/01-hardware.md](docs/01-hardware.md).
 
 ## Objectives
 
@@ -17,6 +19,8 @@ This project documents the planning, deployment and evolution of a HomeLab envir
 - Create isolated cybersecurity practice environments.
 - Experiment with AI and RAG-related services.
 - Document the full process as a professional infrastructure project.
+
+The goal isn't only to deploy services, but to understand how real infrastructure is planned, configured, secured, monitored and documented — and to use that process to build practical skills in systems administration, virtualization, networking, cybersecurity, automation, and AI/RAG infrastructure.
 
 ## Planned Architecture
 
@@ -67,30 +71,15 @@ Home Network
 
 ## Documentation
 
-- docs/01-hardware.md
-- docs/02-networking.md
-- docs/03-proxmox-installation.md
-- docs/04-virtual-machines.md
-- docs/05-docker-services.md
-- docs/06-backups.md
-- docs/07-security.md
-- docs/08-ai-rag-lab.md
-- docs/09-roadmap.md
-
-## Project Goals
-
-The goal of this HomeLab is not only to deploy services, but to understand how real infrastructure is planned, configured, secured, monitored and documented.
-
-This environment will be used to improve practical skills in:
-
-- Systems administration
-- Linux infrastructure
-- Virtualization
-- Networking
-- Cybersecurity
-- Automation
-- Artificial Intelligence infrastructure
-- RAG system experimentation
+- [01 · Hardware](docs/01-hardware.md)
+- [02 · Networking](docs/02-networking.md)
+- [03 · Proxmox Installation](docs/03-proxmox-installation.md)
+- [04 · Virtual Machines](docs/04-virtual-machines.md)
+- [05 · Docker Services](docs/05-docker-services.md)
+- [06 · Backups](docs/06-backups.md)
+- [07 · Security](docs/07-security.md)
+- [08 · AI/RAG Lab](docs/08-ai-rag-lab.md)
+- [09 · Roadmap](docs/09-roadmap.md)
 
 ## Future Improvements
 
