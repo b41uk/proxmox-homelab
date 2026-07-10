@@ -38,4 +38,3 @@ This machine will be used as a virtualization host for:
 ## Notes
 
 The final hardware details will be added once the machine is selected and prepared.
-`
