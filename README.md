@@ -47,3 +47,61 @@ Home Network
         ├── ISO images
         ├── VM disks
         └── Backups
+```
+
+## Planned Technologies
+
+- Proxmox VE
+- Linux
+- Ubuntu Server
+- Windows Server
+- Docker
+- LXC Containers
+- Networking
+- Backups
+- Monitoring
+- Cybersecurity Labs
+- PostgreSQL
+- pgvector
+- AI/RAG experiments
+
+## Documentation
+
+- docs/01-hardware.md
+- docs/02-networking.md
+- docs/03-proxmox-installation.md
+- docs/04-virtual-machines.md
+- docs/05-docker-services.md
+- docs/06-backups.md
+- docs/07-security.md
+- docs/08-ai-rag-lab.md
+- docs/09-roadmap.md
+
+## Project Goals
+
+The goal of this HomeLab is not only to deploy services, but to understand how real infrastructure is planned, configured, secured, monitored and documented.
+
+This environment will be used to improve practical skills in:
+
+- Systems administration
+- Linux infrastructure
+- Virtualization
+- Networking
+- Cybersecurity
+- Automation
+- Artificial Intelligence infrastructure
+- RAG system experimentation
+
+## Future Improvements
+
+- Add architecture diagrams.
+- Add screenshots.
+- Add backup strategy documentation.
+- Add monitoring dashboards.
+- Add security hardening notes.
+- Add AI/RAG experiments.
+- Add lessons learned.
+
+---
+
+> Building practical infrastructure to learn, break, fix and improve.
