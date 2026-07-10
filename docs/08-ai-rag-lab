@@ -1,1 +1,75 @@
+# AI/RAG Lab
 
+This document describes the planned AI and RAG experimentation environment.
+
+## Purpose
+
+The AI/RAG Lab will be used to experiment with Retrieval-Augmented Generation systems, vector databases, embeddings and knowledge base optimization.
+
+This lab connects systems administration with artificial intelligence infrastructure.
+
+## Planned Components
+
+- Ubuntu Server
+- PostgreSQL
+- pgvector
+- Embeddings service
+- Python API
+- Small knowledge base
+- RAG prototype
+
+## Example Architecture
+
+```text
+User Query
+│
+├── Backend API
+│
+├── Embeddings Service
+│
+├── Vector Database
+│   └── PostgreSQL + pgvector
+│
+└── LLM Response
+```
+
+## Goals
+
+- Understand how RAG systems work internally.
+- Practice document structuring.
+- Test semantic retrieval.
+- Improve chunking strategies.
+- Experiment with embeddings.
+- Connect AI systems with infrastructure knowledge.
+- Document retrieval problems and improvements.
+
+## Planned Experiments
+
+- Compare different document structures.
+- Test query variations.
+- Analyze retrieval quality.
+- Evaluate wrong or missing answers.
+- Build a small assistant using local infrastructure documentation.
+- Test how small changes in documents affect retrieval results.
+
+## Relation to Portfolio
+
+This lab demonstrates the ability to build and document infrastructure that supports AI-powered applications.
+
+It also connects directly with practical work around:
+
+- RAG systems
+- Knowledge bases
+- Semantic search
+- Linux services
+- Docker infrastructure
+- AI assistants
+
+## Future Improvements
+
+- Add PostgreSQL installation notes.
+- Add pgvector setup steps.
+- Add embeddings service documentation.
+- Add small test corpus.
+- Add retrieval test results.
+- Add screenshots and diagrams.
